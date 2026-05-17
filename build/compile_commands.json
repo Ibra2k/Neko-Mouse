@@ -13,12 +13,6 @@
 },
 {
   "directory": "/home/ibrahim/programming/cpp/mouse_kitty/build",
-  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ibrahim/programming/cpp/mouse_kitty/include -std=gnu++17 -o CMakeFiles/kitty.dir/src/linux_mouse.cpp.o -c /home/ibrahim/programming/cpp/mouse_kitty/src/linux_mouse.cpp",
-  "file": "/home/ibrahim/programming/cpp/mouse_kitty/src/linux_mouse.cpp",
-  "output": "CMakeFiles/kitty.dir/src/linux_mouse.cpp.o"
-},
-{
-  "directory": "/home/ibrahim/programming/cpp/mouse_kitty/build",
   "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ibrahim/programming/cpp/mouse_kitty/include -std=gnu++17 -o CMakeFiles/kitty.dir/src/animation.cpp.o -c /home/ibrahim/programming/cpp/mouse_kitty/src/animation.cpp",
   "file": "/home/ibrahim/programming/cpp/mouse_kitty/src/animation.cpp",
   "output": "CMakeFiles/kitty.dir/src/animation.cpp.o"
@@ -28,5 +22,11 @@
   "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ibrahim/programming/cpp/mouse_kitty/include -std=gnu++17 -o CMakeFiles/kitty.dir/src/state.cpp.o -c /home/ibrahim/programming/cpp/mouse_kitty/src/state.cpp",
   "file": "/home/ibrahim/programming/cpp/mouse_kitty/src/state.cpp",
   "output": "CMakeFiles/kitty.dir/src/state.cpp.o"
+},
+{
+  "directory": "/home/ibrahim/programming/cpp/mouse_kitty/build",
+  "command": "/usr/bin/c++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ibrahim/programming/cpp/mouse_kitty/include -std=gnu++17 -o CMakeFiles/kitty.dir/src/linux_mouse.cpp.o -c /home/ibrahim/programming/cpp/mouse_kitty/src/linux_mouse.cpp",
+  "file": "/home/ibrahim/programming/cpp/mouse_kitty/src/linux_mouse.cpp",
+  "output": "CMakeFiles/kitty.dir/src/linux_mouse.cpp.o"
 }
 ]

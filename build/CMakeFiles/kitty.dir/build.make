@@ -97,24 +97,10 @@ CMakeFiles/kitty.dir/src/cat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kitty.dir/src/cat.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ibrahim/programming/cpp/mouse_kitty/src/cat.cpp -o CMakeFiles/kitty.dir/src/cat.cpp.s
 
-CMakeFiles/kitty.dir/src/linux_mouse.cpp.o: CMakeFiles/kitty.dir/flags.make
-CMakeFiles/kitty.dir/src/linux_mouse.cpp.o: /home/ibrahim/programming/cpp/mouse_kitty/src/linux_mouse.cpp
-CMakeFiles/kitty.dir/src/linux_mouse.cpp.o: CMakeFiles/kitty.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ibrahim/programming/cpp/mouse_kitty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kitty.dir/src/linux_mouse.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kitty.dir/src/linux_mouse.cpp.o -MF CMakeFiles/kitty.dir/src/linux_mouse.cpp.o.d -o CMakeFiles/kitty.dir/src/linux_mouse.cpp.o -c /home/ibrahim/programming/cpp/mouse_kitty/src/linux_mouse.cpp
-
-CMakeFiles/kitty.dir/src/linux_mouse.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kitty.dir/src/linux_mouse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ibrahim/programming/cpp/mouse_kitty/src/linux_mouse.cpp > CMakeFiles/kitty.dir/src/linux_mouse.cpp.i
-
-CMakeFiles/kitty.dir/src/linux_mouse.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kitty.dir/src/linux_mouse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ibrahim/programming/cpp/mouse_kitty/src/linux_mouse.cpp -o CMakeFiles/kitty.dir/src/linux_mouse.cpp.s
-
 CMakeFiles/kitty.dir/src/animation.cpp.o: CMakeFiles/kitty.dir/flags.make
 CMakeFiles/kitty.dir/src/animation.cpp.o: /home/ibrahim/programming/cpp/mouse_kitty/src/animation.cpp
 CMakeFiles/kitty.dir/src/animation.cpp.o: CMakeFiles/kitty.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ibrahim/programming/cpp/mouse_kitty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/kitty.dir/src/animation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ibrahim/programming/cpp/mouse_kitty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kitty.dir/src/animation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kitty.dir/src/animation.cpp.o -MF CMakeFiles/kitty.dir/src/animation.cpp.o.d -o CMakeFiles/kitty.dir/src/animation.cpp.o -c /home/ibrahim/programming/cpp/mouse_kitty/src/animation.cpp
 
 CMakeFiles/kitty.dir/src/animation.cpp.i: cmake_force
@@ -128,7 +114,7 @@ CMakeFiles/kitty.dir/src/animation.cpp.s: cmake_force
 CMakeFiles/kitty.dir/src/state.cpp.o: CMakeFiles/kitty.dir/flags.make
 CMakeFiles/kitty.dir/src/state.cpp.o: /home/ibrahim/programming/cpp/mouse_kitty/src/state.cpp
 CMakeFiles/kitty.dir/src/state.cpp.o: CMakeFiles/kitty.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ibrahim/programming/cpp/mouse_kitty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/kitty.dir/src/state.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ibrahim/programming/cpp/mouse_kitty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/kitty.dir/src/state.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kitty.dir/src/state.cpp.o -MF CMakeFiles/kitty.dir/src/state.cpp.o.d -o CMakeFiles/kitty.dir/src/state.cpp.o -c /home/ibrahim/programming/cpp/mouse_kitty/src/state.cpp
 
 CMakeFiles/kitty.dir/src/state.cpp.i: cmake_force
@@ -139,22 +125,36 @@ CMakeFiles/kitty.dir/src/state.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kitty.dir/src/state.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ibrahim/programming/cpp/mouse_kitty/src/state.cpp -o CMakeFiles/kitty.dir/src/state.cpp.s
 
+CMakeFiles/kitty.dir/src/linux_mouse.cpp.o: CMakeFiles/kitty.dir/flags.make
+CMakeFiles/kitty.dir/src/linux_mouse.cpp.o: /home/ibrahim/programming/cpp/mouse_kitty/src/linux_mouse.cpp
+CMakeFiles/kitty.dir/src/linux_mouse.cpp.o: CMakeFiles/kitty.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ibrahim/programming/cpp/mouse_kitty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/kitty.dir/src/linux_mouse.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kitty.dir/src/linux_mouse.cpp.o -MF CMakeFiles/kitty.dir/src/linux_mouse.cpp.o.d -o CMakeFiles/kitty.dir/src/linux_mouse.cpp.o -c /home/ibrahim/programming/cpp/mouse_kitty/src/linux_mouse.cpp
+
+CMakeFiles/kitty.dir/src/linux_mouse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kitty.dir/src/linux_mouse.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ibrahim/programming/cpp/mouse_kitty/src/linux_mouse.cpp > CMakeFiles/kitty.dir/src/linux_mouse.cpp.i
+
+CMakeFiles/kitty.dir/src/linux_mouse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kitty.dir/src/linux_mouse.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ibrahim/programming/cpp/mouse_kitty/src/linux_mouse.cpp -o CMakeFiles/kitty.dir/src/linux_mouse.cpp.s
+
 # Object files for target kitty
 kitty_OBJECTS = \
 "CMakeFiles/kitty.dir/src/main.cpp.o" \
 "CMakeFiles/kitty.dir/src/cat.cpp.o" \
-"CMakeFiles/kitty.dir/src/linux_mouse.cpp.o" \
 "CMakeFiles/kitty.dir/src/animation.cpp.o" \
-"CMakeFiles/kitty.dir/src/state.cpp.o"
+"CMakeFiles/kitty.dir/src/state.cpp.o" \
+"CMakeFiles/kitty.dir/src/linux_mouse.cpp.o"
 
 # External object files for target kitty
 kitty_EXTERNAL_OBJECTS =
 
 kitty: CMakeFiles/kitty.dir/src/main.cpp.o
 kitty: CMakeFiles/kitty.dir/src/cat.cpp.o
-kitty: CMakeFiles/kitty.dir/src/linux_mouse.cpp.o
 kitty: CMakeFiles/kitty.dir/src/animation.cpp.o
 kitty: CMakeFiles/kitty.dir/src/state.cpp.o
+kitty: CMakeFiles/kitty.dir/src/linux_mouse.cpp.o
 kitty: CMakeFiles/kitty.dir/build.make
 kitty: /usr/local/lib/libraylib.a
 kitty: /usr/lib/x86_64-linux-gnu/libX11.so
