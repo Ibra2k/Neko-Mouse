@@ -1,0 +1,3 @@
+/home/ibrahim/programming/cpp/mouse_kitty/build/CMakeFiles/kitty.dir
+/home/ibrahim/programming/cpp/mouse_kitty/build/CMakeFiles/edit_cache.dir
+/home/ibrahim/programming/cpp/mouse_kitty/build/CMakeFiles/rebuild_cache.dir
