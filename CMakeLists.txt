@@ -8,12 +8,11 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 find_package(raylib REQUIRED)
 
 if (APPLE)
-	set(PLATFORM_SOURCES src/macos_mouse.mm)
+    set(PLATFORM_SOURCES src/macos_mouse.mm)
 elseif(UNIX)
-	set(PLATFORM_SOURCES src/linux_mouse.cpp)
-	find_package(X11 REQUIRED)
+    set(PLATFORM_SOURCES src/linux_mouse.cpp)
+    find_package(X11 REQUIRED)
 endif()
-
 
 include_directories(include)
 
@@ -25,9 +24,10 @@ add_executable(kitty
     ${PLATFORM_SOURCES}
 )
 
+target_link_libraries(kitty PRIVATE raylib)
 
 if (APPLE)
-	target_link_libraries(kitty PRIVATE "-framework Cocoa")
+    target_link_libraries(kitty PRIVATE "-framework Cocoa")
 elseif(UNIX)
-	target_link_libraries(kitty PRIVATE ${X11_LIBRARIES})
+    target_link_libraries(kitty PRIVATE X11::X11)
 endif()
