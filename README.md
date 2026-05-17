@@ -5,7 +5,7 @@
 First, run the setup script to install dependencies:
 
 ```bash
-chmod +x setup_macos.sh
+chmod +x setup_kitty_macos.sh
 ./setup_macos.sh
 ```
 
