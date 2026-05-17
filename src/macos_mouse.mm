@@ -3,21 +3,19 @@
 
 MousePos getGlobalMousePos()
 {
-	NSPoint mouseLocation = [NSEvent mouseLocation];
-	NSScreen * screen = [NSScreen mainScreen]
-	CGFloat screenHeight = [scree frame].size.height;
+    NSPoint mouseLocation = [NSEvent mouseLocation];
+    NSScreen * screen = [NSScreen mainScreen];
 
-	int flippedY = screenHeight - (int)mouseLocation.y;
+    CGFloat screenHeight = [screen frame].size.height;
+    int flippedY = screenHeight - (int)mouseLocation.y;
 
-	return { (int)mouseLocation.x , flippedY };
-
+    return { (int)mouseLocation.x , flippedY };
 }
-
 
 ScreenDimensions getScreenDimensions()
 {
-	NSRect visibleRect = [[NSScreen mainScreen] visibleFrame];
-	CGFloat visibleWidth = visibleRect.size.width;
-	CGFloat visibleHeight = visibleRect.size.height;
-	return { (int)visibleWidth, (int)visibleHeight };
+    NSRect visibleRect = [[NSScreen mainScreen] visibleFrame];
+    CGFloat visibleWidth = visibleRect.size.width;
+    CGFloat visibleHeight = visibleRect.size.height;
+    return { (int)visibleWidth, (int)visibleHeight };
 }
