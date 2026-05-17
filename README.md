@@ -5,13 +5,15 @@
 First, run the setup script to install dependencies:
 
 ```bash
+cd Users/
+git clone https://github.com/Ibra2k/Neko-Mouse.git
+cd Neko-Mouse
+
+# -- Run for first time users --
 chmod +x setup_kitty_macos.sh
 ./setup_kitty_macos.sh
-```
+# -- Run for first time users --
 
-Then build:
-
-```bash
 mkdir build && cd build
 cmake ..
 make
