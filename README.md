@@ -5,7 +5,7 @@
 First, run the setup script to install dependencies:
 
 ```bash
-cd Users/
+cd
 git clone https://github.com/Ibra2k/Neko-Mouse.git
 cd Neko-Mouse
 
